@@ -1,4 +1,4 @@
-variable "rm1" {
-  
-  name = "ft1"
+variable "template" {
+    type = "string"
+    default = "test1"
 }
