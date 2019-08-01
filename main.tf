@@ -11,5 +11,5 @@ resource "azurerm_resource_group" "testtf" {
 resource "azurerm_resource_group" "rg" {
   name = "${var.nombrerg}${count.index+1}"
   location = "east US"
-  count = "4"
+  count = "5"
 }
